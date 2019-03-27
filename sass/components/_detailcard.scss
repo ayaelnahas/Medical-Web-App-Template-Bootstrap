@@ -1,0 +1,111 @@
+.detailcard
+{
+    background-color: $havan-color;
+   // opacity: 1;
+    width: 40%;
+    height: 30rem;
+    color: $white-color;
+    position: absolute;
+    position: relative;
+    top: 38rem;
+    right: 11rem;
+
+    &:hover
+    {
+        background-color: darken($color: $havan-color, $amount: 4%);
+       
+        opacity: 0.72%;
+        transition: 0.7s;
+        
+
+        .detailcard__border
+        {
+        width: 90%;
+        height: 82%;
+        position: absolute;
+        top: 3rem;
+        left: 3rem;
+        border: $white-color 0.1rem solid;
+        
+        }
+        .detailcard__body
+        {
+        background-color: lighten($color: $havan-color, $amount: 2%);
+        border: $white-color 0.1rem solid; 
+
+        }
+    }
+ 
+    
+    &__body 
+    {  
+        width: 90%;
+        height: 82%;
+        margin-top: 2rem;
+        font-family: 'Poppins', sans-serif;
+        text-transform: uppercase;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        position: absolute;
+        top: 10;
+        left: 2rem;
+    }
+
+    &__title
+    {
+        font-size: 3rem;
+        margin-top: 4rem;
+        
+    }
+    &__middletext
+    { 
+        font-size: 6rem;
+        line-height: 6.6rem;
+        font-weight: 800;
+        margin-top: 2rem;
+        position: relative;
+       &::after{
+           content: "";
+           width:30rem;
+           height: 0.1rem;
+           background-color: $white-color;
+           position: absolute;
+           top: 8rem;
+           right: 10rem;
+       }
+    }
+
+    &__smalltext 
+    {
+        text-decoration: none;
+        color: $white-color;
+        margin-top: 3.5rem;
+        font-size: 2rem;
+    
+    }
+
+    &--background-color
+    {
+        position: absolute;
+        background-color: $primary-pink;
+        left: 16rem;
+        top: 60rem;
+        
+        &:hover
+    {
+         background-color: darken($color: $primary-pink, $amount: 4%);
+        opacity: 0.72%;
+        transition: 0.7s;
+      
+        .detailcard__body
+        {
+        border: $white-color 0.1rem solid; 
+        background-color: lighten($color: $primary-pink, $amount: 2%);
+        //opacity: 0.3;
+        
+        }
+        
+    }
+    }
+}

@@ -1,0 +1,113 @@
+
+.menu
+{   
+    box-sizing: border-box;
+    background-color:$dark-gray;
+    height: 15rem;
+    padding-top: 3rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    width: 100%;
+    > div:last-child  // direct last child ( div)
+    {
+        margin-top: 4rem;
+    }
+}
+
+.row
+{
+   
+    height: 100%;
+    *
+    {
+        height: 100%;
+    }
+    :link, :visited
+    {
+    text-decoration: none;
+    color:$white-color;
+    }
+    :hover 
+    {
+    color: $primary-pink;
+    }
+        &--left
+        {
+            // float: left;
+            display: inline;
+            *
+            {
+                height: 100%;
+                border-right: 2px solid $light-gray;
+            }
+            a:last-child
+            {
+                border-right: none;
+            }
+        }
+        &--right
+        {
+            float: right;
+            *
+            {
+                height: 100%;
+                border-left: 2px solid $light-gray;
+            }
+            a:first-child
+            {
+                border-left: none;
+            }
+            
+        }  
+        &--second
+        {   
+            display: inline;
+        }
+
+
+        &::after{
+            content: "";
+            width: 91%;
+            height: 0.1rem;
+            background-color: $light-gray;
+            position: absolute;
+            top: 6rem;
+            right: 6rem;
+        }
+}
+
+
+
+.menu-items 
+{
+    text-align: center;
+    width: 100%;
+        & > div
+    {
+        display: inline-block;
+        vertical-align: middle;
+    }
+}
+
+
+.row-items
+{
+    padding: 0.5rem;
+    font-style: normal;
+    font-size: 1.5rem;
+    font-family: sans-serif;   
+}
+
+
+.row2-items
+{
+    padding: 1.5rem;
+    position: relative;
+    left: 6rem;
+    top: 1rem;
+    font-size: 1.7rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+}
+

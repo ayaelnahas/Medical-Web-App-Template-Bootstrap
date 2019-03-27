@@ -1,0 +1,62 @@
+
+.download-btn
+{
+    width: 20%;
+    height: 5rem;
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 3rem;
+    justify-content: baseline;
+    text-transform: uppercase;
+
+    a
+    {
+        text-decoration: none;
+        color: $light-gray;
+    }
+    &:hover
+        {
+            a 
+            {
+                color: $primary-pink;
+                transition: 0.7s;
+            }
+        }
+
+    &__icon
+    {
+        padding: 1rem;
+        margin-right: 2rem;
+        width: 3rem;
+        height: 3rem;
+        border: 0.5px solid #837979;
+        border-radius: 50%;
+        align-self: flex-start;
+        align-content: center;
+        text-align: center;
+        margin-top: 1rem;
+    
+        &:hover
+        {
+            background: $primary-pink;
+            border-color: $primary-pink;
+            transition: 0.7s;
+            a 
+            {
+                color: white;
+            }
+        }
+
+    }
+
+    &__text
+    {
+        align-self: flex-end;
+        width: 80%;
+        font-size: 1.3rem;
+        font-weight: 400;
+        
+    }
+}

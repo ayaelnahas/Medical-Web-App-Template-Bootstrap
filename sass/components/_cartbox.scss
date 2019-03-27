@@ -1,0 +1,25 @@
+.cartbox
+{
+    box-sizing: border-box;
+    //overflow: hidden;
+    float: right;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 0.5rem;
+    position: relative;
+     
+    .button-cart
+    {   
+        
+        position: absolute;
+        right: 1rem;
+        left: 7px;
+        top: 0.3rem;
+        background: none;
+        border: none;
+        width: 2rem;
+ 
+        
+        color:$primary-pink;
+    }         
+}

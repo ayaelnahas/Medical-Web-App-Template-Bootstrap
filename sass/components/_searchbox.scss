@@ -1,0 +1,27 @@
+
+.searchbox
+{
+    box-sizing: border-box;
+    overflow: hidden;
+    float: right;
+    height: 4rem;
+    width: 24rem;
+    border-radius: 0.6rem;
+    position: relative;
+    right: 1rem;
+     
+    .button-search
+    {   
+        position: absolute;
+        right: 3px;
+        top: 1rem;
+        padding: 0.6rem;
+        width: 5rem;
+        color: #d96a77;
+        background: none;
+        border: none;
+    }         
+}
+
+
+

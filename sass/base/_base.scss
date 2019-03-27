@@ -1,0 +1,31 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html
+{
+    font-size: 62.5%;
+}
+
+body
+{
+    font-family:'Montserrat', sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 0rem;
+    padding-bottom: 2rem;
+    padding-left: 0rem;
+}
+
+.background-image
+{
+    background-image: url(../../image/blog131-480x644.jpg);
+}

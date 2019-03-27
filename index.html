@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+    <script src="js/jQuery.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/bootstrap.js"></script>
+</head>
+
+<body>
+    <!--nav bar-->
+    <div class="container-fluid">
+        <div class="row no-gutters">
+            <!-- <div class="col-sm-1"> </div> -->
+            <div class="col-sm-12">
+                <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+                    <a class="navbar-brand" href="#">
+                        <img src="../Project/image/globals-logo.png"></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+                        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse " id="navbarText">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Pages</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Timetable</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact Us</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                    
+                </nav>
+            </div>
+            <!-- <div class="col-sm-1"> </div> -->
+        </div>
+    </div>
+    <!--slider-->
+    <div class="container-fluid">
+    <div class="row no-gutters">
+        <div class="col-md-12">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner ">
+                    <div class="carousel-item active">
+                        <div  class="d-block w-100 slider-image1"></div> 
+                        <div class="carousel-caption d-none d-md-block left-caption">
+                            <div class="caption-text">
+                                <h5>HELLO WORLD</h5>
+                                <h4>Welcome to medical center</h4>
+                                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididu..</p>
+                                <a href="#" class="cards-btn btn">Read more  <i class="fa fa-angle-double-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                    <div class="d-block w-100 slider-image2"></div>
+                    <div class="carousel-caption d-none d-md-block">
+                        <div class="caption-text-right">
+                            <h5 class="title">HELLO WORLD</h5>
+                            <h4 class="title">Welcome to medical center</h4>
+                            <p class=" slider-paragraph">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididu..</p>
+                            <a href="#" class="cards-btn btn">Read more  <i class="fa fa-angle-double-right"></i></a>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="carousel-item">
+                    <div class="d-block w-100 slider-image3 left-caption"></div> 
+                    <div class="carousel-caption d-none d-md-block">
+                        <div class="caption-text">
+                            <h5 class="title">HELLO WORLD</h5>
+                            <h4 class="title">Welcome to medical center</h4>
+                            <p class=" slider-paragraph">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididu.</p>
+                            <a href="#" class="cards-btn btn">Read more  <i class="fa fa-angle-double-right"></i></a>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div style="height:4rem;"></div>
+    <!--cards with icons-->
+    <div class="container">
+                <div class="row row-padding">
+                        <div class="col-md-1 col-xs-2">
+                            <i class="fa fa-medkit option option-red"></i>
+                        </div>
+                        <div class="col-md-3 col-xs-10">
+                            <h2 class="options-title">Emergency Help</h2>
+                            <p class="options-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.</p>
+                            <a href="#" class="health-feature-btn btn">Read More <i class="fa fa-angle-double-right"></i></a>
+                        </div>
+                   
+                   
+                        <div class="col-md-1 col-xs-2">
+                            <i class="fa fa-desktop option option-yellow"></i>
+                        </div>
+                        <div class="col-md-3 col-xs-10">
+                            <h2 class=" options-title">Advanced Technology</h2>
+                            <p class="options-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.</p>
+                            <a href="#" class="health-feature-btn btn">Read More <i class="fa fa-angle-double-right"></i></a>
+                        </div>
+                    
+                    
+                        <div class="col-md-1 col-xs-2">
+                            <i class="fa fa-graduation-cap option option-green"></i>
+                        </div>
+                        <div class="col-md-3 col-xs-10">
+                            <h2 class="options-title">Qualified Doctors</h2>
+                            <p class="options-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.</p>
+                            <a href="#" class="health-feature-btn">Read More <i class="fa fa-angle-double-right"></i></a>
+                        </div>
+                   
+                </div>
+                <div class="row row-padding">
+                    
+                        <div class="col-md-1 col-xs-2">
+                            <i class="fa fa-heartbeat option-blue option"></i>
+                        </div>
+                        <div class="col-md-3 col-xs-10">
+                            <h2 class="options-title">Cardio Monitoring</h2>
+                            <p class="options-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.</p>
+                            <a href="#" class="health-feature-btn btn">Read More <i class="fa fa-angle-double-right"></i></a>
+                        </div>
+                   
+                   
+                        <div class="col-md-1 col-xs-2">
+                            <i class="fa fa-plus-circle option  option-purple"></i>
+                        </div>
+                        <div class="col-md-3 col-xs-10">
+                            <h2 class="options-title">Medical Treatment</h2>
+                            <p class="options-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.</p>
+                            <a href="#" class="health-feature-btn btn">Read More <i class="fa fa-angle-double-right"></i></a>
+                        </div>
+                   
+                   
+                        <div class="col-md-1 col-xs-2">
+                            <i class="fa fa-stethoscope option option-pink "></i>
+                        </div>
+                        <div class="col-md-3 col-xs-10">
+                            <h2 class=" options-title">Great Care</h2>
+                            <p class="options-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.</p>
+                            <a href="#" class="health-feature-btn btn">Read More <i class="fa fa-angle-double-right"></i></a>
+                        </div>
+                   
+                </div>
+    </div>
+    <div style="height:4rem;"></div>
+    <!--cards-->
+    <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-3 health-schedule-col doctor-box">
+                        <div class="doctor-timetable-box">
+                            <h1 class="timetable-h">Doctors Timetable</h1>
+                            <p class="timetable-p">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam.</p>
+                            <a href="#" class="cards-btn btn">View Timetable  <i class="fa fa-angle-double-right"></i></a>
+                           
+                        </div>
+                    </div>
+                    <div class="col-md-3 health-schedule-col emergency-box">
+                        <div class="emergency-cases-box">
+                            <h1 class="timetable-h">Emergency Cases</h1>
+                            <p class="timetable-p">Lorem ipsum dolor sit amet, consectetuer adipiscing.</p>
+                            <p class="emergency-call">+440 875369208</p>
+                            <a href="#" class="cards-btn btn">Call Us Now  <i class="fa fa-angle-double-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 health-schedule-col appoiments-box">
+                        <div  class="appointment-box">
+                            <h1 class="timetable-h">Appointments</h1>
+                            <p class="timetable-p">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam.</p>
+                            <a href="#" class="cards-btn btn">Make An Appointment  <i class="fa fa-angle-double-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 health-schedule-col working-box">
+                        <div  class="working-time-box">
+                            <h1 class="timetable-h">Working Time</h1>
+                            <ul class="list-unstyled">
+                                <li class="time-table-l.check-style">Monday - Friday <span class="pull-right">8.00 - 17:00</span></li>
+                                <li class="time-table-li">Saturday<span class="pull-right">9.30 - 17:30</span></li>
+                                <li class="time-table-li3">Sunday<span class="pull-right">9.30 - 15:00</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+    </div>
+    <!--delimiter-->
+    <div style="height:5rem;"></div>
+
+    <!--Doctor section-->
+    <div class="container">
+        <div class="row">
+            <div class="col-6-md">
+                <img src="../Project/image/doctor.png"></div>
+                <div class="col-md-6">
+                        <div class="bonnus-box">
+                            <h1 class="medical-container-h">About the Medical Center</h1>
+                            <p class="medical-container-p">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Claritas est etiam processus dynamicus, qui sequitur mutationem.</p>
+                            <div class="row">
+                                <div class="col-md-6 col-xs-6">
+                                    <div class="true-check">
+                                        <ul>
+                                            <li class="medical-list">
+                                                <!-- <i class="fas fa-check"></i> -->
+                                                <i class="fas fa-check"></i>
+                                                <label class="label-check">Claritas est etia processus;</label>
+                                            </li>
+                                            <li class="medical-list">
+                                                <i class="fas fa-check"></i>
+                                                <label class="label-check">Mirum est notare quam;</label>
+                                            </li>
+                                            <li class="medical-list">
+                                                <i class="fas fa-check"></i>
+                                                <label class="label-check">Eodem modo typi;</label>
+                                            </li>
+                                            <li class="medical-list">
+                                                <i class="fas fa-check"></i>
+                                                <label class="label-check">Lorem ipsum dolor sit;</label>
+                                            </li>
+                                            <li class="medical-list">
+                                                <i class="fas fa-check"></i>
+                                                <label class="label-check">Nam liber tempor cum.</label>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-xs-6">
+                                    <div class="wrong-check">
+                                        <ul>
+                                            <li class="medical-list">
+                                                <i class="fas fa-times"></i>
+                                                <label class="label-check">Claritas est etia processus;</label>
+                                            </li>
+                                            <li class="medical-list">
+                                                <i class="fas fa-times"></i>
+                                                <label class="label-check">Mirum est notare quam;</label>
+                                            </li>
+                                            <li class="medical-list">
+                                                <i class="fas fa-times"></i>
+                                                <label class="label-check">Eodem modo typi;</label>
+                                            </li>
+                                            <li class="medical-list">
+                                                <i class="fas fa-times"></i>
+                                                <label class="label-check">Lorem ipsum dolor sit;</label>
+                                            </li>
+                                            <li class="medical-list">
+                                                <i class="fas fa-times"></i>
+                                                <label class="label-check">Nam liber tempor cum.</label>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-6 col-sm-4">
+                                    <a href="#" class="cards-btn btn">Learn more  <i class="fa fa-angle-double-right"></i></a>
+                                </div>
+                                <div class="col-xs-6 col-sm-4">
+                                  <a href="#" class="cards-btn btn">Contact Us  <i class="fa fa-angle-double-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+        </div>
+    </div>
+
+    <!--purple caption slider-->
+    <div class="container-fluid">
+     <div class="row no-gutters">
+            <div class="col-md-12">
+                    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                            
+                            <div class="carousel-inner ">
+                                <div class="carousel-item active ">
+                                    <div class="d-block2 w-70">
+                                    <div class="up"> 
+                                        <img src="../Project/image/up.png"><br><br><br>
+                                    </div>                                        
+                                    <div class="text">
+                                        <h2>Claritas est etiam processus dynamicus,<br>
+                                            qui sequitur mutationemy consuetudium.</h2>
+                                        <h6>— Frank Adams,<span>"pediatric clinic"</span></h6><br><br><br>  
+                                    </div>
+                                    <div class="up"> 
+                                    <img src="../Project/image/down.png">
+                                    </div>   
+                                </div>
+                                    
+                                </div>
+                                <div class="carousel-item">
+                                <div class="d-block2 w-70">
+                                    <div class="up"> 
+                                            <img src="../Project/image/up.png"><br><br><br>
+                                        </div>                                        
+                                        <div class="text">
+                                            <h2>Claritas est etiam processus dynamicus,<br>
+                                                qui sequitur mutationemy consuetudium.</h2>
+                                            <h6>— Frank Adams,<span>"pediatric clinic"</span></h6><br><br><br>  
+                                        </div>
+                                        <div class="up"> 
+                                        <img src="../Project/image/down.png">
+                                        </div>   
+                                </div>
+                                </div>
+
+                                <div class="carousel-item">
+                                <div class="d-block2 w-70">
+                                    <div class="up"> 
+                                            <img src="../Project/image/up.png"><br><br><br>
+                                        </div>                                        
+                                        <div class="text">
+                                            <h2>Claritas est etiam processus dynamicus,<br>
+                                                qui sequitur mutationemy consuetudium.</h2>
+                                            <h6>— Frank Adams,<span>"pediatric clinic"</span></h6><br><br><br>  
+                                        </div>
+                                        <div class="up"> 
+                                        <img src="../Project/image/down.png">
+                                        </div>      
+                                </div> 
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                </div>
+        </div>     
+    </div>
+</div>
+<!--delimiter-->
+<div style="height:5rem;"></div>
+
+<!--accordion section-->
+<div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                    <div class="bonnus-box">
+                            <h1 class="medical-container-h">Our Department</h1>
+                            <p class="medical-container-p">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Claritas est etiam processus dynamicus, qui sequitur mutationem.</p>
+                    </div>
+                    <div class="accordion" id="accordionExample">
+                        <div class="card">
+                            <div class="card-header" id="headingOne">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Primary Health Care
+                                </button>
+                                <button class="btn-style fas fa-angle-down"></button>
+                        
+                            </h5>
+                            </div>
+                        
+                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                            <div class="card-body">
+                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper.
+                            </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                                <div class="card-header" id="headingTwo">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                                 Pediatric Clinic
+                                    </button>
+                                    <button class="btn-style fas fa-angle-down"></button>
+                                </h5>
+                                </div>
+                            
+                                <div id="collapseTwo" class="collapse show" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper.
+                                </div>
+                                </div>
+                        </div>
+                        <div class="card">
+                                <div class="card-header" id="headingThree">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                                Outpatient Surgery
+                                    </button>
+                                    <button class="btn-style fas fa-angle-down"></button>
+                                </h5>
+                                </div>
+                            
+                                <div id="collapseThree" class="collapse show" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper.
+                                </div>
+                                </div>
+                        </div>
+                        <div class="card">
+                                <div class="card-header" id="headingFour">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                                Gynaecological Clinic
+                                    </button>
+                                    <button class="btn-style fas fa-angle-down"></button>
+                                </h5>
+                                </div>
+                            
+                                <div id="collapseFour" class="collapse show" aria-labelledby="headingFour" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper.
+                                </div>
+                                </div>
+                        </div>
+                        <div class="card">
+                                <div class="card-header" id="headingFive">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+                                Cardiac Clinic
+                                    </button>
+                                    <button class="btn-style fas fa-angle-down"></button>
+                                </h5>
+                                </div>
+                            
+                                <div id="collapseFive" class="collapse show" aria-labelledby="headingFive" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper.
+                                </div>
+                                </div>
+                        </div>
+                        <div class="card">
+                                <div class="card-header" id="headingSix">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
+                                Laryngological Clinic
+                                    </button>
+                                    <button class="btn-style fas fa-angle-down"></button>
+                                </h5>
+                                </div>
+                            
+                                <div id="collapseSix" class="collapse show" aria-labelledby="headingSix" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper.
+                                </div>
+                                </div>
+                        </div>
+                        <div class="card">
+                                <div class="card-header" id="headingSeven">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="true" aria-controls="collapseSeven">
+                                Ophthalmology Clinic
+                                    </button>
+                                    <button class="btn-style fas fa-angle-down"></button>
+                                </h5>
+                                </div>
+                            
+                                <div id="collapseSeven" class="collapse show" aria-labelledby="headingSeven" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper.
+                                </div>
+                                </div>
+                        </div>
+                        <div class="card">
+                                <div class="card-header" id="headingEight">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseEight" aria-expanded="true" aria-controls="collapseEight">
+                                 Dental Clinic
+                                    </button>
+                                    <button class="btn-style fas fa-angle-down"></button>
+                                </h5>
+                                </div>
+                            
+                                <div id="collapseEight" class="collapse show" aria-labelledby="headingEight" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper.
+                                </div>
+                                </div>
+                        </div>
+                        <div class="card">
+                                <div class="card-header" id="headingNine">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseNine" aria-expanded="true" aria-controls="collapseNine">
+                                 Outpatient Rehabilitation
+                                    </button>
+                                    <button class="btn-style fas fa-angle-down"></button>
+                                </h5>
+                                </div>
+                            
+                                <div id="collapseNine" class="collapse show" aria-labelledby="headingNine" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper.
+                                </div>
+                                </div>
+                        </div>
+                        
+                    </div>
+            </div>
+
+            <!--Form section-->
+            <div class="col-6-md">
+            <div class="clip-board"> <img src="../Project/image/clipBoard.png"> </div>
+            <div class="form-container">
+                <div class="form-container-h">
+                    <h3 style="text-align:center; margin-top: 3rem;">Book an Appointment</h3>
+                    <p class="form-p">Lorem ipsum dolor sit amet, consectetuer adipiscing elit nonummy.</p>
+                </div><br>
+                <form action="">
+                    <select class="form-control form-control-sm">
+                        <option>Select Department</option>
+                        <option>Primary Health Care</option>
+                        <option>Pediatric Clinic</option>
+                        <option>Outpatient Surgery</option>
+                        <option>Gynaecological Clinic</option>
+                        <option>Cardiac Clinic</option>
+                        <option>Laryngological Clinic</option>
+                        <option>Ophthalmology Clinic</option>
+                        <option>Dental Clinic</option>
+                        <option>Outpatient Rehabilitation</option>
+                    </select><br>
+                    <div class="form-group">                       
+                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="First Name (required)">
+                    </div><br>
+                    <div class="form-group">                    
+                    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Last Name (required)">
+                    </div><br>
+                    <div class="form-group">                      
+                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Phone (required)">
+                    </div><br>
+                    <div class="form-group">                       
+                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Email Address (required)">
+                    </div><br>
+                    <button type="submit" class="btn btn-primary submit-btn">Submit</button>
+                </form>
+            </div>
+            </div>
+        </div>
+</div>
+
+<!--delimiter-->
+<div style="height:5rem;"></div>
+
+<div class="app">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7">
+                    <img src="../Project/image/apps.png" style="margin-top:4rem;">
+                </div>
+                <div class="col-md-5">
+                    <h1 class="app-heading">Download the Globals App</h1>
+                    <h2 class="app-sub-heading">for Your Smartphone</h2>
+                    <div class="row">
+                </div>
+            </div>
+        </div>
+    
+</body>
+
+</html>
